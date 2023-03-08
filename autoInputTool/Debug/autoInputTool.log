@@ -1,0 +1,25 @@
+﻿  Processing .\autoInputTool.idl
+  autoInputTool.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oaidl.idl
+  oaidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\objidl.idl
+  objidl.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\unknwn.idl
+  unknwn.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\wtypes.idl
+  wtypes.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\wtypesbase.idl
+  wtypesbase.idl
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\basetsd.h
+  basetsd.h
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\guiddef.h
+  guiddef.h
+  Processing C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\oaidl.acf
+  oaidl.acf
+  pch.cpp
+  autoInputTool.cpp
+  autoInputToolDlg.cpp
+  CListBoxFileDrop.cpp
+  DlgProxy.cpp
+  코드를 생성하고 있습니다...
+Debug\autoInputTool.obj : fatal error LNK1112: 'x86' 모듈 컴퓨터 종류가 'x64' 대상 컴퓨터 종류와 충돌합니다.

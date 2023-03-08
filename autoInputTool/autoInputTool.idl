@@ -1,0 +1,29 @@
+﻿// autoInputTool.idl: autoInputTool.exe의 형식 라이브러리 소스
+
+// 이 파일은 MIDL 컴파일러에 의해 처리되어
+// 형식 라이브러리(autoInputTool.tlb)입니다.
+
+[ uuid(cce864c1-4e41-4448-91c4-585be6e3e9f1), version(1.0) ]
+library autoInputTool
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CautoInputToolDoc의 기본 디스패치 인터페이스
+
+	[ uuid(8aa0cea3-ccc4-4657-a525-3d2f6c01224b) ]
+	dispinterface IautoInputTool
+	{
+		properties:
+
+		methods:
+	};
+
+	//  CautoInputToolDoc에 대한 클래스 정보
+
+	[ uuid(c4fb20f8-1b21-418e-8b79-5b251ec98ec9) ]
+	coclass autoInputTool
+	{
+		[default] dispinterface IautoInputTool;
+	};
+};
